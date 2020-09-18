@@ -10,7 +10,7 @@ myForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     const name = address.value
     myPara.textContent="Loading......."
-     
+    
     fetch('/weather?address='+name)
     .then(response=>{
     response.json().then(data=>{
