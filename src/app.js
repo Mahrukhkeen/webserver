@@ -9,7 +9,7 @@ const forecasting=require('./utils/forecast')
 const { title } = require('process')
 
 const app=express()
-const port = process.env.PORT || 3000
+const port = process.env.port || 3000
 
 //path
 //const mainPath=path.join(__dirname,'../template/views')
